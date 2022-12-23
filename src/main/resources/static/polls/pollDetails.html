@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container p-3">
+      <div class="fs-3 my-3">Toy Servlet Poll</div>
+      <div class="form border p-3">
+        <div>3. 매장의</div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="Q1" id="Q1_E1" />
+          <label for="Q1_E1" class="form-check-label">1.</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="Q1" id="Q1_E2" />
+          <label for="Q1_E2" class="form-check-label">2.</label>
+        </div>
+
+        <div class="my-3">
+          <a
+            href="/polls/PollServlet?QUESTIONS_UID=Q2"
+            class="btn btn-outline-secondary"
+            >Prev</a
+          >
+          <a
+            href="/polls/PollServlet?QUESTIONS_UID=Q4"
+            class="btn btn-outline-secondary"
+            >Next</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
